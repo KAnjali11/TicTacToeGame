@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     
+  background-image: linear-gradient(to right,#606C38,#bc6c25);
+ text-align: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+.game{
+    display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.box{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 2px solid #434f1a;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   font-size: 50px;
+   font-weight: 60px;
+   width: 100px;
+   height: 100px;
+   font-weight: 500;
+   cursor: pointer;
+   border-radius: 8px;
+   background-color: #434f1a;
+   color: #fefae0;
+}
+.restart-btn{
+    width: 100px;
+    height:30px ;
+    background-color: transparent;
+    font-size: 20px;
+    color:whitesmoke;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 4px 2px black;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    margin-left: 36.7rem;
+    margin-top: 50px;
+    font-weight: bolder;   
+}
+#msg{
+  color: #434f1a;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.msg-container{
+ font-size: 40px;
+ margin-top: 10px;
+ padding: 2px;
+ margin-bottom: 0px;
+color: #2b340e;
+}
+.hide{
+  display: none;
+}
+/* h1{
+  margin-top: 80px;
+} */
+ .disabled {
+    pointer-events: none;
+    /* opacity: 0.6; */
+}
+.enableBoxes{
+   pointer-events: none;
+}
+.disableBoxes{
+  pointer-events: none;
+}
+.new-btn{
+  width: 100px;
+    height:30px ;
+    background-color: transparent;
+    font-size: 15px;
+    color:whitesmoke;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 4px 2px black;
+    
+    
+    /* margin-left: rem; */
+    
+    font-weight: bolder; 
+}
